@@ -18,7 +18,12 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
+    margin-bottom: 20px;
+    span {
+      text-align: end;
+      width: 340px;
+      margin-top: 10px;
+    }
   }
 
   .searchpart {
