@@ -1,7 +1,7 @@
 import { createSlice } from "@reduxjs/toolkit";
 import { mockData } from "components/constants";
 
-interface ICounter {
+interface IMockData {
   count: number;
   mockData: Object;
   searchKey: string;
@@ -9,7 +9,7 @@ interface ICounter {
   pageSize: number,
 }
 
-const initialState: ICounter = {
+const initialState: IMockData = {
   count: 20,
   mockData: mockData.data,
   searchKey: '',
