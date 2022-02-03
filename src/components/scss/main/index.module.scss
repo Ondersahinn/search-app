@@ -1,0 +1,130 @@
+.main {
+  color: #000;
+  text-align: center;
+  padding: 2rem 0;
+  font-family: Roboto;
+
+  h1 {
+    color: #ffffff;
+    font-size: 2.875rem;
+  }
+
+  p {
+    font-size: 1.125rem;
+  }
+
+  .logopart {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+  }
+
+  .searchpart {
+    position: relative;
+    max-width: 900px;
+    margin: 0 auto;
+
+    .searchinput {
+      display: flex;
+      justify-content: space-between;
+      max-width: 900px;
+      margin: 0 auto;
+
+      .input {
+        width: 700px;
+        background: #FFFFFF;
+        border: 1px solid #000000;
+        box-sizing: border-box;
+        border-radius: 8px;
+        height: 46px;
+        padding-left: 10px;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 21px;
+        color: #888888;
+        text-align: center;
+
+        &:hover {
+          background: rgba(100, 100, 100, 0.08);
+          border: 2px solid rgba(0, 0, 0, 0.6);
+          box-sizing: border-box;
+          border-radius: 8px;
+        }
+      }
+
+      a {
+        width: 140px;
+        background: #204080;
+        border-radius: 8px;
+        color: white;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+      }
+
+    }
+
+    .searchresult {
+      background: #FFFFFF;
+      border: 1px solid #484848;
+      box-sizing: border-box;
+      border-radius: 4px;
+      width: 700px;
+      margin-top: 20px;
+
+      ul {
+        padding: 0;
+
+        li {
+          list-style: none;
+          display: flex;
+          justify-content: space-between;
+          border-bottom: 1px solid #585858;
+          transform: matrix(1, 0, 0, 1, 0, 0);
+          width: 90%;
+          margin: 0 auto;
+          text-align: left;
+          height: 40px;
+          margin-bottom: 10px;
+          padding-bottom: 10px;
+          .country {
+            span {
+              display: block;
+
+              &:first-child {
+                font-family: Roboto;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 18px;
+                line-height: 21px;
+                color: #484848;
+                padding-bottom: 5px;
+              }
+
+              &:last-child {
+                font-style: normal;
+                font-weight: bold;
+                font-size: 12px;
+                line-height: 14px;
+
+                color: #686868;
+              }
+            }
+          }
+
+          .email {
+            font-style: normal;
+            font-weight: bold;
+            font-size: 18px;
+            line-height: 21px;
+            color: #484848;
+          }
+        }
+      }
+    }
+  }
+}
